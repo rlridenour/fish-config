@@ -9,5 +9,5 @@ function config
     printf 'iCanHazShortcut: %s' (fish_git_prompt)\n
     sconfig
     printf 'Espanso: %s' (fish_git_prompt)\n\n
-    cd ~
+    cd ~/.config
 end
