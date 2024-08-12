@@ -1,4 +1,5 @@
-function config
+function cgs
+    printf \n
     econfig
     printf 'emacs: %s' (fish_git_prompt)\n
     fconfig
@@ -9,5 +10,5 @@ function config
     printf 'iCanHazShortcut: %s' (fish_git_prompt)\n
     sconfig
     printf 'Espanso: %s' (fish_git_prompt)\n\n
-    cd ~/.config
+    cd ~
 end
