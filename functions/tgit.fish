@@ -1,9 +1,19 @@
 function tgit
-    for file in (find . -type d -maxdepth 3)
-  if test -d "$file/.git"
-    cd $file
-    printf '%s' (prompt_pwd)
-    printf '%s' (fish_git_prompt)
+    cd ~/.config
+    
+	cd $dir
+	printf $PWD
+    end
 end
-end
-end
+
+
+
+
+#     cd ~/.config
+#     for file in (find . -type d -maxdepth 1)
+#         # printf '%s' (prompt_pwd)
+#         # printf '%s' (fish_git_prompt)
+#         # echo file: $file
+#     end
+# end
+
