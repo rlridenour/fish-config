@@ -12,7 +12,6 @@ function cgp
     cd ~/.config/iCanHazShortcut
     printf "iCanHazShortcut: "
     git pull
-    sconfig
     cd ~/.config/espanso
     printf "Espanso: "
     git pull
