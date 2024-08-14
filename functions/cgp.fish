@@ -1,19 +1,23 @@
 function cgp
     printf \n
-    econfig
+    cd ~/.config/emacs
     printf "emacs: "
     git pull
-    fconfig
+    cd ~/.config/fish
     printf "fish: "
     git pull
-    # kconfig
+    cd ~/.config/kitty
     printf "kitty: "
     git pull
-    # iconfig
+    cd ~/.config/iCanHazShortcut
     printf "iCanHazShortcut: "
     git pull
-    # sconfig
+    sconfig
+    cd ~/.config/espanso
     printf "Espanso: "
+    git pull
+    cd ~/.config/latexmk
+    printf "latexmk: "
     git pull
     cd ~
 end

@@ -1,14 +1,19 @@
 function cgs
     printf \n
-    econfig
+    cd ~/.config/emacs
     printf 'emacs: %s' (fish_git_prompt)\n
-    fconfig
+    cd ~/.config/fish
     printf 'fish: %s' (fish_git_prompt)\n
-    kconfig
+    cd ~/.config/kitty
     printf 'kitty: %s' (fish_git_prompt)\n
-    iconfig
+    cd ~/.config/iCanHazShortcut
     printf 'iCanHazShortcut: %s' (fish_git_prompt)\n
-    sconfig
+    cd ~/.config/latexmk
+    printf 'latexmk: %s' (fish_git_prompt)\n
+    cd ~/.config/espanso
     printf 'Espanso: %s' (fish_git_prompt)\n\n
     cd ~
 end
+
+
+
