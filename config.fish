@@ -55,4 +55,8 @@ test -e {$HOME}/.iterm2_shell_integration.fish; and source {$HOME}/.iterm2_shell
 set -g fish_user_paths "/usr/local/opt/node@10/bin" $fish_user_paths
 set -g fish_user_paths "/usr/local/opt/node@8/bin" $fish_user_paths
 
+bind " " expand-abbr or self-insert
 
+# Abbreviations
+
+abbr --add cfg '~/.config/'
