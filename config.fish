@@ -60,3 +60,4 @@ bind " " expand-abbr or self-insert
 # Abbreviations
 
 abbr --add cfg '~/.config/'
+abbr --add gitlast 'git show -s --format=%s'
