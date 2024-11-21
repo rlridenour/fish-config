@@ -1,3 +1,3 @@
 function gitlast
-    git log -1 --pretty=%B
+    git show -s --format=%s
 end
