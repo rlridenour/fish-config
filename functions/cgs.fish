@@ -11,7 +11,11 @@ function cgs
     cd ~/.config/latexmk
     printf 'latexmk: %s' (fish_git_prompt)\n
     cd ~/.config/espanso
-    printf 'Espanso: %s' (fish_git_prompt)\n\n
+    printf 'Espanso: %s' (fish_git_prompt)\n
+    cd ~/sites/orgblog
+    printf 'orgblog: %s' (fish_git_prompt)\n
+    cd ~/sites/rlridenour.github.io
+    printf 'rlridenour.github.io: %s' (fish_git_prompt)\n\n
     cd ~
 end
 

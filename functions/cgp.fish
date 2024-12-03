@@ -18,5 +18,11 @@ function cgp
     cd ~/.config/latexmk
     printf "latexmk: "
     git pull
-    cd ~
+    cd ~/sites/orgblog
+    printf 'orgblog: '
+    git pull
+    cd ~/sites/rlridenour.github.io
+    printf 'rlridenour.github.io: '
+    git pull
+cd ~
 end
