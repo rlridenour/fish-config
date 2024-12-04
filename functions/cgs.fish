@@ -13,6 +13,7 @@ function cgs
     cd ~/.config/espanso
     printf 'Espanso: %s' (fish_git_prompt)\n
     cd ~/sites/orgblog
+    printf 'orgblog: %s' (fish_git_prompt)\n
 end
 
 
