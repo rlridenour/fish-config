@@ -15,8 +15,6 @@ function cgs
     cd ~/sites/orgblog
     printf 'orgblog: %s' (fish_git_prompt)\n
     cd ~/sites/rlridenour.github.io
-    printf 'rlridenour.github.io: %s' (fish_git_prompt)\n\n
-    cd ~
 end
 
 
