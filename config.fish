@@ -57,6 +57,12 @@ set -g fish_user_paths "/usr/local/opt/node@8/bin" $fish_user_paths
 
 bind " " expand-abbr or self-insert
 
+
+# Zoxide
+
+zoxide init fish | source
+
+
 # Abbreviations
 
 abbr --add cfg '~/.config/'
