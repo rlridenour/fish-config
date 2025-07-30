@@ -6,8 +6,8 @@ function cgp
     cd ~/.config/fish
     printf "fish: "
     git pull
-    cd ~/.config/kitty
-    printf "kitty: "
+    cd ~/.config/ghostty
+    printf "ghostty: "
     git pull
     cd ~/.config/iCanHazShortcut
     printf "iCanHazShortcut: "
