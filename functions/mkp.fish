@@ -1,3 +1,3 @@
-function mkpdf
+function mkp
     latexmk $argv
 end
