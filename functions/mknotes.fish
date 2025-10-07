@@ -1,6 +1,6 @@
 function mknotes
 		for file in *-notes.tex
-		    mklua $file 
+		    mkl $file 
 		end
 		open -g *-notes.pdf
 end
