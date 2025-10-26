@@ -1,3 +1,3 @@
 function et
-    emacsclient -t $argv
+    mg
 end
