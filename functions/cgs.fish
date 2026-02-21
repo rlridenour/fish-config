@@ -10,8 +10,8 @@ function cgs
     printf 'iCanHazShortcut: %s' (fish_git_prompt)\n
     cd ~/.config/latexmk
     printf 'latexmk: %s' (fish_git_prompt)\n
-    cd ~/.config/espanso
-    printf 'Espanso: %s' (fish_git_prompt)\n
+    # cd ~/.config/espanso
+    # printf 'Espanso: %s' (fish_git_prompt)\n
     cd ~/sites/orgblog
     printf 'orgblog: %s' (fish_git_prompt)\n
     cd ~

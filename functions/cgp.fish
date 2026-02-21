@@ -12,9 +12,9 @@ function cgp
     cd ~/.config/iCanHazShortcut
     printf "iCanHazShortcut: "
     git pull
-    cd ~/.config/espanso
-    printf "Espanso: "
-    git pull
+    # cd ~/.config/espanso
+    # printf "Espanso: "
+    # git pull
     cd ~/.config/latexmk
     printf "latexmk: "
     git pull
