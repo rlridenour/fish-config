@@ -6,8 +6,8 @@ function cgs
     printf 'fish: %s' (fish_git_prompt)\n
     cd ~/.config/ghostty
     printf 'ghostty: %s' (fish_git_prompt)\n
-    cd ~/.config/iCanHazShortcut
-    printf 'iCanHazShortcut: %s' (fish_git_prompt)\n
+    # cd ~/.config/iCanHazShortcut
+    # printf 'iCanHazShortcut: %s' (fish_git_prompt)\n
     cd ~/.config/latexmk
     printf 'latexmk: %s' (fish_git_prompt)\n
     # cd ~/.config/espanso

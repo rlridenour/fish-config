@@ -9,9 +9,9 @@ function cgp
     cd ~/.config/ghostty
     printf "ghostty: "
     git pull
-    cd ~/.config/iCanHazShortcut
-    printf "iCanHazShortcut: "
-    git pull
+    # cd ~/.config/iCanHazShortcut
+    # printf "iCanHazShortcut: "
+    # git pull
     # cd ~/.config/espanso
     # printf "Espanso: "
     # git pull
