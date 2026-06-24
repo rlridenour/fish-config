@@ -67,3 +67,4 @@ zoxide init fish | source
 
 abbr --add cfg '~/.config/'
 abbr --add gitlast 'git show -s --format=%s'
+export PATH="$HOME/.local/bin:$PATH"
