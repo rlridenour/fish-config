@@ -5,4 +5,5 @@ function uul
     cp ~/github/ox-rlr-typst/ox-rlr-typst.el ~/.config/emacs/user-lisp/
     cp ~/github/typst-standard-form/emacs/rlr-org-standard-form.el ~/.config/emacs/user-lisp/
     cp ~/github/rlr-create-typst-bib/rlr-create-typst-bib.el ~/.config/emacs/user-lisp/
+    cp ~/github/rlr-exam/elisp/ox-exam.el ~/.config/emacs/user-lisp/
 end
