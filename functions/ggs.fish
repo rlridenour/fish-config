@@ -18,6 +18,8 @@ function ggs
     printf 'touying-slides-handout: %s' (fish_git_prompt)\n
     cd ~/github/typst-standard-form
     printf 'typst-standard-form: %s' (fish_git_prompt)\n
+    cd ~/github/rlr-canvas
+    printf 'rlr-canvas: %s' (fish_git_prompt)\n
     cd ~
 end
 
