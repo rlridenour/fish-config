@@ -7,4 +7,5 @@ function uul
     cp ~/github/rlr-create-typst-bib/rlr-create-typst-bib.el ~/.config/emacs/user-lisp/
     cp ~/github/rlr-exam/elisp/ox-exam.el ~/.config/emacs/user-lisp/
     cp ~/github/rlr-canvas/elisp/canvas-quiz.el ~/.config/emacs/user-lisp/
+    cp ~/github/ox-rlr-slipshow/ox-rlr-slipshow.el ~/.config/emacs/user-lisp/
 end
