@@ -20,6 +20,10 @@ function ggs
     printf 'typst-standard-form: %s' (fish_git_prompt)\n
     cd ~/github/rlr-canvas
     printf 'rlr-canvas: %s' (fish_git_prompt)\n
+    cd ~/github/ox-rlr-slipshow
+    printf 'ox-rlr-slipshow: %s' (fish_git_prompt)\n
+    cd ~/github/ox-rlr-mosaic
+    printf 'ox-rlr-mosaic: %s' (fish_git_prompt)\n
     cd ~
 end
 
