@@ -1,6 +1,6 @@
 function attend
     cd "/Users/rlridenour/Library/Mobile Documents/com~apple~CloudDocs/Documents/teaching/intro/attendance" &&
-    latexmk -lualatex -g -nobibtex &&
+    for file in *.typ; typst compile $file; end &&
     lp *.pdf &&
     cd
 end

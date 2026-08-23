@@ -6,7 +6,10 @@ function uul
     cp ~/github/typst-standard-form/emacs/rlr-org-standard-form.el ~/.config/emacs/user-lisp/
     cp ~/github/rlr-create-typst-bib/rlr-create-typst-bib.el ~/.config/emacs/user-lisp/
     cp ~/github/rlr-exam/elisp/ox-exam.el ~/.config/emacs/user-lisp/
+    cp ~/github/rlr-canvas/elisp/canvas-api.el ~/.config/emacs/user-lisp/
+    cp ~/github/rlr-canvas/elisp/canvas-page.el ~/.config/emacs/user-lisp/
     cp ~/github/rlr-canvas/elisp/canvas-quiz.el ~/.config/emacs/user-lisp/
+    cp ~/github/rlr-canvas/elisp/canvas-assignment.el ~/.config/emacs/user-lisp/
     cp ~/github/ox-rlr-slipshow/ox-rlr-slipshow.el ~/.config/emacs/user-lisp/
     cp ~/github/ox-rlr-mosaic/ox-rlr-mosaic.el ~/.config/emacs/user-lisp/
 end
