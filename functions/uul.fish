@@ -10,6 +10,7 @@ function uul
     cp ~/github/rlr-canvas/elisp/canvas-page.el ~/.config/emacs/user-lisp/
     cp ~/github/rlr-canvas/elisp/canvas-quiz.el ~/.config/emacs/user-lisp/
     cp ~/github/rlr-canvas/elisp/canvas-assignment.el ~/.config/emacs/user-lisp/
+    cp ~/github/rlr-canvas/elisp/canvas-org.el ~/.config/emacs/user-lisp/
     cp ~/github/ox-rlr-slipshow/ox-rlr-slipshow.el ~/.config/emacs/user-lisp/
     cp ~/github/ox-rlr-mosaic/ox-rlr-mosaic.el ~/.config/emacs/user-lisp/
 end
